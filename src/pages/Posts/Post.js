@@ -10,7 +10,7 @@ const Post = ({ posts,title }) => {
                 
                     <h5 className="d-inline"> {post.title}</h5> - <span> {post.userId}</span>
                     <p> {post.body}</p>
-                    <Comments id={post.id}/>
+                    {/* <Comments id={post.id}/> */}
                     
                  </div>
                </div>;
